@@ -1,7 +1,7 @@
-@import url("sections/hero.css");
-@import url("sections/secondpage.css");
-@import url("sections/about.css");
-@import url("sections/footer.css");
+@import url("hero.css");
+@import url("secondpage.css");
+@import url("about.css");
+@import url("footer.css");
 
 *{
     padding: 0;
