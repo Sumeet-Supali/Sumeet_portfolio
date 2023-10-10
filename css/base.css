@@ -1,0 +1,30 @@
+@import url("sections/hero.css");
+@import url("sections/secondpage.css");
+@import url("sections/about.css");
+@import url("sections/footer.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#circle{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(243, 246, 249);
+    border-radius: 50%;
+    z-index: 99999;
+    mix-blend-mode: difference;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+
+
+

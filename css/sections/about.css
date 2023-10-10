@@ -1,0 +1,44 @@
+#about{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    gap: 50px;
+    padding: 10vw 10vw;
+   
+}
+
+#about img{
+    width: 20vw;
+    height: 20vw;
+}
+
+#about_text{
+    width: 25rem;
+}
+#about_text h5{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: large;opacity: 0.8;
+}
+#about_text p{
+    opacity: 0.7;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+#about a{
+    
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 100px;
+    transition: all 0.7s ease ;
+}
+#about a:hover{
+    background-color: aliceblue;
+    color: black;
+}
